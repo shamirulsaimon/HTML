@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display:flex;
+            border:2px solid red;
+            height:400px;
+            /* set the element to the end*/
+            justify-content:flex-end;
+            
+            /*set the element to the start*/
+            justify-content:flex-start;
+
+            /*set the element to the center*/
+            justify-content:center;
+
+            /*give the element space between element*/
+            justify-content:space-between;
+
+            /*give the element space evenly*/
+            justify-content:space-evenly;
+
+            /*give the element space around*/
+            justify-content:space-around;
+
+            /*verticall*/
+            /*to set the element to downward*/
+            align-items:flex-end;
+
+            /*to set the element to upward*/
+            align-items:flex-start;
+
+            /*to take the element in the center*/
+            align-items:center;
+
+            /* element in the center */
+            justify-content: center;
+            align-items: center;     
+            
+            /*direction in flex to column and column reverse reverse */
+            flex-direction: column;
+            flex-direction: column-reverse;
+
+            /*direction in flex to row and row reverse reverse */
+            flex-direction: row-reverse;
+            flex-direction: row;
+
+            /*flex wrap*/
+            flex-wrap: wrap;
+
+
+
+        }
+        .box{
+            height:200px;
+            width:200px;
+            border:1px solid purple;
+            font-size:26px;
+            font-weight: 700px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+    </div>
+</body>
+</html>
